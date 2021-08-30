@@ -1,0 +1,76 @@
+body{
+    background-image: url("3.jpg");
+    background-color: aqua;
+    background-size: cover;
+    
+}
+.container {
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.ase{
+    display: flex;
+    justify-content: center;
+}
+.calc{
+    background-color: rgb(138, 138, 226);
+    display: inline-block;
+    padding: 15px;
+    border: 3mm ridge rgba(17, 17, 17, 0.6); 
+    border-radius: 10% / 10%;
+    margin-top: -40px;
+}
+.calculator{
+    margin: auto;
+    margin-top: 15px;
+    
+}
+.equal:hover{
+    background-color: greenyellow;
+}
+.mod:hover{
+    background-color: rgb(18, 240, 248);
+}
+.multiply:hover{
+    background-color: rgb(253, 75, 5);
+}
+.sub:hover{
+    background-color: rgb(241, 95, 10);
+}
+.plus:hover{
+    background-color: rgb(255, 130, 47);
+}
+h1{
+    border: 1.5mm ridge rgba(17, 17, 17, 0.6); 
+    border-radius: 5% / 15%;
+    font-size: 40px;
+    font-family: Algerian;
+    padding: 10px;
+    background-color: rgb(52, 92, 212);
+}
+h1:hover{
+    font-size: 41px;
+    transition: 0.5s;
+    background-color: rgb(211, 112, 55);
+}
+input{
+    border-radius: 15px;
+    border: 2mm ridge rgba(66, 35, 204, 0.6); 
+    font-size: 30px;
+    padding: 8px;
+}
+button{
+    border-radius: 10% / 20%;
+    font-size: 30px;
+    background: rgb(223, 223, 248);
+    width: 97px;
+    height: 70px;
+}
+button:hover{
+    background: rgb(255, 255, 255);
+}
+.daark:hover{
+    background-color: black;
+    color:rgb(18, 240, 248);
+}
